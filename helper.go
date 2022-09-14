@@ -9,8 +9,8 @@ import (
 )
 
 
-func addr() string {
-	return fmt.Sprintf("%s:%s", app.Host, app.Port)
+func addr(h string, p string) string {
+	return fmt.Sprintf("%s:%s", h, p)
 } // addr
 
 

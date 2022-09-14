@@ -30,18 +30,13 @@ const (
 
 const (
 	PLAYER_ACTION_STATS			= "stats"
+	PLAYER_ACTION_TASK			= "task"
 )
 
 
-type AppConfig struct {
-	Host					string				`json:"host"`
-	Port					string				`json:"port"`
-}
-
-
-type ClientAction struct {
-	Resource			string				`json:"resource"`
-	Command				string				`json:"command"`
-	Action				string				`json:"action"`
-	Options       map[string] string 	`json:"options"`
+type PlayerAction struct {
+	Resource			string				`redis:"resource"`
+	Command				string				`redis:"command"`
+	Action				string				`redis:"action"`
+	Options       map[string] string 	`redis:"options"`
 }

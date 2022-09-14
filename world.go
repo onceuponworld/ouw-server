@@ -38,7 +38,7 @@ func worldHandler(w http.ResponseWriter, r *http.Request) {
 
 		}
 
-		var msg ClientAction
+		var msg PlayerAction
 
 		err = json.Unmarshal(buf, &msg)
 
