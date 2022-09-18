@@ -54,6 +54,8 @@ github.com/onceuponworld/ouw-sdk v0.0.0-20220912232541-e6f11efbeb47 h1:SoIlTCr5R
 github.com/onceuponworld/ouw-sdk v0.0.0-20220912232541-e6f11efbeb47/go.mod h1:RaiBxT3F4p45VeOlosIYALmcmaU+i9OqED4wAjtFkJE=
 github.com/onceuponworld/ouw-sdk v0.0.0-20220912235910-89e6180b91ad h1:fgmj3I9r8T82cguERtnudenk0FbVZLcrDbI2JpXobrQ=
 github.com/onceuponworld/ouw-sdk v0.0.0-20220912235910-89e6180b91ad/go.mod h1:RaiBxT3F4p45VeOlosIYALmcmaU+i9OqED4wAjtFkJE=
+github.com/onceuponworld/ouw-sdk v0.0.0-20220914110332-d92360d92d8a h1:80aLdn0y5a0ZRXtTNqA0M8V9CyYhmD4R32qQN73gr5c=
+github.com/onceuponworld/ouw-sdk v0.0.0-20220914110332-d92360d92d8a/go.mod h1:Xw4X/spP1tOh1Jnp/iOoifZof0fpmQZ98JcELP59e2U=
 github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/ginkgo v1.12.1/go.mod h1:zj2OWP4+oCPe1qIXoGWkgMRwljMUYCdkwsT2108oapk=
 github.com/onsi/ginkgo v1.16.4/go.mod h1:dX+/inL/fNMqNlz0e9LfyB9TswhZpCVdJM/Z6Vvnwo0=

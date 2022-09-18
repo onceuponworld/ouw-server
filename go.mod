@@ -6,7 +6,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
-	github.com/onceuponworld/ouw-sdk v0.0.0-20220912235910-89e6180b91ad
+	github.com/onceuponworld/ouw-sdk v0.0.0-20220914110332-d92360d92d8a
 )
 
 require (

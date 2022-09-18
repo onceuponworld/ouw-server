@@ -39,9 +39,9 @@ func main() {
 
 	flag.Parse()
 
-	ouwsdk.ParseConfig(*conf, app)
+	ouwsdk.ParseConfig(*conf, &app, true)
 
-	initRedis()
+	rds = ouwsdk.InitRedis(app.Store.Host, app.Store.Port)
 
 	http.HandleFunc("/world", worldHandler)
 
